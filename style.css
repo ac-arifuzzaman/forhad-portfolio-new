@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+h1 {
+  /* margin: 40px 0; */
+  font-weight: 700;
+  font-size: 60px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.title-color {
+  color: orangered;
+}
+
+/* heror section start  */
+/* .hero-border {
+  border-left: 6px solid orangered;
+} */
+.hero-text {
+  width: 50%;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  width: 80%;
+  height: 80%;
+}
+
+.hero-btn {
+  background: orangered;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.hero-btn a {
+  color: white;
+  font-weight: 700;
+}
+/* hero section end  */
+/* my mission section start  */
+/* .mission {
+  margin-bottom: 100px;
+} */
+
+.mission h1 {
+  text-align: center;
+}
+
+.mission-1 {
+  background-color: antiquewhite;
+}
+
+.mission-2 {
+  background-color: rgb(217, 247, 142);
+}
+
+.mission-3 {
+  background-color: rgb(183, 153, 246);
+}
+
+.mission-item {
+  border-radius: 10px;
+  padding: 0 0 20px 20px;
+  margin-right: 20px;
+}
+
+.mission-item img {
+  width: 40%;
+  margin-bottom: 10px;
+}
+/* my mission section end  */
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.footer p {
+  padding-bottom: 10px;
+}
+.footer h1 {
+  font-family: "Dancing Script";
+}
